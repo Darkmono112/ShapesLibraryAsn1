@@ -1,5 +1,5 @@
 package org.example.shapes
 
 interface Area {
-    fun area()
+    fun area():Double
 }
