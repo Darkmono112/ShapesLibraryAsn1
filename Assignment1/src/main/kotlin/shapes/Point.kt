@@ -23,8 +23,10 @@ class Point(
     }
 
 
-    public  fun clone(): Point {
+    fun clone(): Point {
         return Point(x,y)
     }
+
+
 
 }

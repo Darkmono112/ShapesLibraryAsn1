@@ -1,4 +1,4 @@
 package org.example.shapes
 
-class Circle {
+class Circle(center:Point, radius:Double): Ellipse(center, radius,radius) {
 }
