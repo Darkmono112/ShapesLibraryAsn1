@@ -14,10 +14,6 @@ class Point(
 
 
 
-   fun getpoint(){
-
-   }
-
     override fun move() {
         TODO("Not yet implemented")
     }
