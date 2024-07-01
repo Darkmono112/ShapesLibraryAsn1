@@ -10,12 +10,13 @@ class Line(start:Point, end:Point):Moveable {
     var end: Point = end
         private set
 
-    fun slope(){
-        TODO("Not yet implemented" )
+    fun slope():Double {
+        return (start.y-end.y)/(start.x - end.x)
     }
 
     override fun move(deltaX: Double, deltaY: Double) {
-        TODO("Not yet implemented")
+        start.move(deltaX,deltaY)
+        end.move(deltaX,deltaY)
     }
 
 }
