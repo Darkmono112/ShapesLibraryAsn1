@@ -1,4 +1,0 @@
-package Shapes
-
-class PointTest {
-}
