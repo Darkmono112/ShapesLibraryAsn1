@@ -1,6 +1,6 @@
-package org.example.shapes
+package shapes
 
-open class Ellipse(center:Point, xRadii:Double, yRadii:Double):Moveable, Area {
+open class Ellipse(center: Point, xRadii:Double, yRadii:Double): Moveable, Area {
     init{
         require(xRadii > 0.0 && yRadii > 0.0)
     }

@@ -1,4 +1,6 @@
-package org.example.shapes
+package shapes
+
+
 
 interface Area {
     fun area():Double

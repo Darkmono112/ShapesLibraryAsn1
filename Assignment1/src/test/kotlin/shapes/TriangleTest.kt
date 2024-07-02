@@ -1,15 +1,12 @@
 package shapes
 
-import org.example.shapes.Point
-import org.example.shapes.Triangle
-import kotlin.concurrent.timer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class TriangleTest {
 
     //triangle with a know area of 2
-    private var triangle = Triangle(Point(0.0,0.0),Point(1.0,2.0), Point(2.0,0.0) )
+    private var triangle = Triangle(Point(0.0,0.0), Point(1.0,2.0), Point(2.0,0.0) )
 
     @Test
     fun move() {

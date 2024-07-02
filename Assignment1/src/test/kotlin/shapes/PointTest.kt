@@ -1,5 +1,4 @@
 package shapes
-import org.example.shapes.Point
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals

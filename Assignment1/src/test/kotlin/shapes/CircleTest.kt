@@ -1,7 +1,5 @@
 package shapes
 
-import org.example.shapes.Circle
-import org.example.shapes.Point
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

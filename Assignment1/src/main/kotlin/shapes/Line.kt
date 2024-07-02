@@ -1,6 +1,6 @@
-package org.example.shapes
+package shapes
 
-class Line(start:Point, end:Point):Moveable {
+class Line(start: Point, end: Point): Moveable {
 
     init{
         require(start != end )

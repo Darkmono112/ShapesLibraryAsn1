@@ -1,4 +1,3 @@
-package org.example.shapes
+package shapes
 
-class Circle(center:Point, radius:Double): Ellipse(center, radius,radius) {
-}
+class Circle(center: Point, radius:Double): Ellipse(center, radius,radius)

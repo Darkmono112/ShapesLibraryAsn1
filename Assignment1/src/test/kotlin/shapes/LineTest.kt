@@ -1,7 +1,7 @@
 package shapes
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import org.example.shapes.*
+
 class LineTest {
 
     private var line = Line(Point(6.0,5.0), Point(8.0,-4.0))

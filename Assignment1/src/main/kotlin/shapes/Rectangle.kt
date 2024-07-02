@@ -1,17 +1,18 @@
-package org.example.shapes
+package shapes
+
 
 import kotlin.math.abs
 
 
-open class Rectangle (topLeft:Point, bottomRight:Point): Moveable, Area {
+open class Rectangle (topLeft: Point, bottomRight: Point): Moveable, Area {
 
     init{
         require(topLeft.x != bottomRight.x && topLeft.y != bottomRight.y)
     }
 
-    var topLeft:Point = topLeft
+    var topLeft: Point = topLeft
         private set
-    var bottomRight:Point = bottomRight
+    var bottomRight: Point = bottomRight
         private set
     var length: Double = abs(topLeft.x - bottomRight.x)
         private set

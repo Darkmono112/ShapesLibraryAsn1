@@ -1,5 +1,4 @@
 package shapes
-import org.example.shapes.*
 import kotlin.test.assertEquals
 import kotlin.test.Test
 

@@ -1,8 +1,9 @@
-package org.example.shapes
+package shapes
+
 
 import kotlin.math.abs
 
-class Triangle(pointA: Point, pointB:Point, pointC:Point): Moveable, Area {
+class Triangle(pointA: Point, pointB: Point, pointC: Point): Moveable, Area {
 
     init {
         //Make sure the slop is not the same between these sets, otherwise they are on a line

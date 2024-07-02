@@ -1,11 +1,10 @@
-package org.example.shapes
-
+package shapes
 
 
 class Point(
      x:Double = 0.0  ,
      y:Double = 0.0
-):Moveable {
+): Moveable {
 
     var x: Double = x
         private set
